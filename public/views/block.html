@@ -80,6 +80,24 @@
               </div>
             </td>
           </tr>
+          <tr>
+            <td><strong>BaseTarget</strong></td>
+            <td class="text-right text-muted">
+              <div class="ellipsis">
+                <span class="btn-copy" clip-copy="block.baseTarget"></span>
+                <span>{{block.baseTarget}}</span>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Deadline</strong></td>
+            <td  class="text-right text-muted">
+              <div class="ellipsis">
+                <span class="btn-copy" clip-copy="block.deadline"></span>
+                <span>{{block.deadline}}</span>
+              </div>
+            </td>
+          </tr>
           <tr data-ng-show="block.previousblockhash">
             <td><strong translate>Previous Block</strong></td>
             <td class="text-right"><a href="block/{{block.previousblockhash}}">{{block.height-1}}</a></td>
@@ -116,14 +134,24 @@
             </td>
           </tr>
           <tr>
-            <td><strong>Solution</strong></td>
+            <td><strong>GenSign</strong></td>
             <td class="text-right text-muted">
               <div class="ellipsis">
-                <span class="btn-copy" clip-copy="block.solution"></span>
-                <span>{{block.solution}}</span>
+                <span class="btn-copy" clip-copy="block.genSign"></span>
+                <span>{{block.genSign}}</span>
               </div>
             </td>
           </tr>
+          <tr>
+            <td><strong>PlotID</strong></td>
+            <td class="text-right text-muted">
+              <div class="ellipsis">
+                <span class="btn-copy" clip-copy="block.plotID"></span>
+                <span>{{block.plotID}}</span>
+              </div>
+            </td>
+          </tr>
+          
           <tr data-ng-show="block.nextblockhash">
             <td><strong translate>Next Block</strong></td>
             <td class="text-right"><a href="block/{{block.nextblockhash}}">{{block.height+1}}</a></td>

@@ -1,10 +1,11 @@
 'use strict';
 
 var testnet = false;
-var netSymbol = testnet ? 'TAZ' : 'ZEC';
+var netSymbol = testnet ? 'TAZ' : 'TAO';
 
 var defaultLanguage = localStorage.getItem('insight-language') || 'en';
 var defaultCurrency = localStorage.getItem('insight-currency') || netSymbol;
+// var defaultCurrency = netSymbol;
 
 angular.module('insight',[
   'ngAnimate',

@@ -1,8 +1,30 @@
 {
-  "name": "insight-ui-zcash",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the zcash network and build your own services with it.",
-  "version": "0.4.0",
-  "repository": "git://github.com/zcash-hackworks/insight-ui-zcash.git",
+  "_from": "github:zcash-hackworks/insight-ui-zcash",
+  "_id": "insight-ui-zcash@0.4.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/insight-ui-zcash",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "zcash-hackworks/insight-ui-zcash",
+    "rawSpec": "zcash-hackworks/insight-ui-zcash",
+    "saveSpec": "github:zcash-hackworks/insight-ui-zcash",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "github:zcash-hackworks/insight-ui-zcash#5a5fdc2aad05194d3b34ab9fce8470b873c7d636",
+  "_spec": "zcash-hackworks/insight-ui-zcash",
+  "_where": "/home/tongyuhu/zc",
+  "bitcoreNode": "bitcore-node-zcash",
+  "bugs": {
+    "url": "https://github.com/zcash/zcash/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -33,11 +55,23 @@
       "email": "simon@z.cash"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/zcash/zcash/issues"
+  "dependencies": {},
+  "deprecated": false,
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the zcash network and build your own services with it.",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
   },
   "homepage": "https://github.com/zcash-hackworks/insight-ui-zcash",
-  "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
@@ -46,20 +80,11 @@
     "bitcore",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-zcash",
-  "dependencies": {
+  "license": "MIT",
+  "name": "insight-ui-zcash",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zcash-hackworks/insight-ui-zcash.git"
   },
-  "devDependencies": {
-    "bower": "~1.2.8",
-    "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.11",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-watch": "*",
-    "grunt-macreload": "*",
-    "grunt-css": "~0.5.4",
-    "grunt-markdown": "~0.5.0",
-    "grunt-angular-gettext": "^0.2.15"
-  }
+  "version": "0.4.0"
 }
